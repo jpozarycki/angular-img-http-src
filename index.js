@@ -3,7 +3,7 @@
 (function () {
   'use strict';
 
-  angular.module('angular.img', [])
+  angular.module('angularImg', [])
     .directive('httpSrc', ['$http', function ($http) {
       return {
         // do not share scope with sibling img tags and parent
